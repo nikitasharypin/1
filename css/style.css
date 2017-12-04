@@ -1,0 +1,125 @@
+html {
+	min-width: 386x;
+	min-height: 463px;
+}
+
+body {
+	margin:0;
+	display:inline-block;
+}
+
+#calc {
+	width: 304px;
+	height: 421px;
+	margin: 20px 40px;
+}
+
+#calc #calcTop {
+	height: 75px;
+	width: 302px;
+	background-image: linear-gradient(to bottom, #373737, #313131);
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+input{
+	padding: 0;
+	outline:0;
+}
+
+#calc #calcTop input {
+	background:#bfc2af;
+	margin: 12px 15px 19px 15px;
+	width:266px;
+	height:30px;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-right: 3px solid #494949;
+	border-bottom: 3px solid #494949;
+	text-align: right;
+	font-size:24px;
+	padding-bottom:8px;
+}
+
+#calc #calcBottom {
+	height: 344px;
+	width: 302px;
+	background-image: linear-gradient(to bottom, #2b2b2b, #000);
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#calc #calcBottom div {
+	width: 51px;
+	border: 1px solid #454545;
+	border-radius:6px;
+	color:#fff;
+	display: inline-block;
+	font-family: Arial;
+	text-align: center;
+	margin-left:10px;
+}
+
+#calc #calcBottom div.buttons.topButtons {
+	height:22px;
+	background:rgba(255, 255, 255, 0.01);
+	box-shadow: inset 0px 0px 25px 2px rgba(0, 0, 0, 1), 0px 0px 1px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.05);
+	margin-top:22px;
+	font-size:16px;
+	padding-top:4px;
+}
+
+#calc #calcBottom div.buttons.topButtons:active {
+	background:#000;
+	cursor: default;
+}
+
+#calc #calcBottom div.newRow {
+	margin-left:24px;
+}
+
+#calc #calcBottom div.buttons {
+	height:43px;
+	background:#1d1d1d;
+	box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.05), 1px 1px 0px 0px rgba(255, 255, 255, 0.05), inset 0px 0px 25px 2px rgba(255, 255, 255, .05);
+	margin-top:11px;
+	font-size:30px;
+	padding-top:11px;
+	cursor: pointer;
+}
+
+#calc #calcBottom div.buttons:active {
+	background:#262626;
+	cursor: default;
+}
+
+#calc #calcBottom div.arithmetic {
+	background:#fff;
+	color:#000;
+	box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.05), 1px 1px 0px 0px rgba(255, 255, 255, 0.05), inset 0px 0px 40px 0px rgba(0, 0, 0, .8);
+	background-clip:padding-box;
+}
+#calc #calcBottom div.arithmetic:active {
+	background:#737373;
+	box-shadow:none;
+	cursor: default;
+}
+
+#calc #calcBottom div#eq{
+	background:#ff723b;
+	color:#fff;
+	box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.05), 1px 1px 0px 0px rgba(255, 255, 255, 0.05), inset 0px 0px 40px 0px rgba(0, 0, 0, .8);
+	background-clip:padding-box;
+}
+
+#calc #calcBottom div#eq:active {
+	background:#76351b;
+	box-shadow:none;
+	cursor: default;
+}
